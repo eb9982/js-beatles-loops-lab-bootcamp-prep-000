@@ -13,7 +13,7 @@ function johnLennonFacts(facts) {
   while (x > 0){
     x = x - 1
     var y = '!!!'
-    array.push(facts[x] + y)
+    array.unshift(facts[x] + y)
   }
   return array
 }
