@@ -15,4 +15,5 @@ function johnLennonFacts(facts) {
     array.push(facts[x] + y)
     x = x-1
   }
+  return array
 }
