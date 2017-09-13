@@ -12,6 +12,6 @@ function johnLennonFacts(facts) {
   while (x > 0){
     var y = '!!!'
     x = x-1
-    return x + y
+    return facts[x] + y
   }
 }
