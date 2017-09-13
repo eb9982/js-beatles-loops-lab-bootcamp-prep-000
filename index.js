@@ -12,8 +12,7 @@ function johnLennonFacts(facts) {
   var x = facts.length
   while (x > 0){
     x = x - 1
-    var y = '!!!'
-    array.unshift(facts[x] + y)
+    array.unshift(facts[x] + '!!!')
   }
   return array
 }
