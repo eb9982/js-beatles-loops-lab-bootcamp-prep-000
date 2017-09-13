@@ -1,8 +1,7 @@
 function theBeatlesPlay(musicians,instruments) {
   for (var i = 0; i < 3; i++) {
-    var x = console.log(musicians[0])
-    var y = console.log(instruments[0])
-    const sentence = ' plays '
+    var array = []
+    array.push(musicians[0] + 'plays' + (instruments[0]))
     return x + sentence + y
   }
 }
