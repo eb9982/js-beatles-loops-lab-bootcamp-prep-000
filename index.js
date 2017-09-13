@@ -1,5 +1,6 @@
 function theBeatlesPlay(musicians,instruments) {
   for (var i = 0; i < musicians.length; i++) {
-    return `${console.log(musicians[i])} plays the ${console.log(instruments[i])}`
+    const sentence = 'plays the'
+    console.log(musicians[i] + sentence + instruments[i]);
   }
 }
